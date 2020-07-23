@@ -28,6 +28,6 @@ globalActivePower <- as.numeric(df_filtered$Global_active_power)
 
 png("plot2.png", width=480, height=480)
 plot(weekdays,globalActivePower, type = "l", ylab="Global Active Power (kilowatts)",xlab = "" )
-title()
+
 
 dev.off()
